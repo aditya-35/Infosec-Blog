@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block content %}
+<form method="POST" class="card p-4 shadow">
+    <h4>Sign Up</h4>
+    <input name="username" class="form-control mb-2" placeholder="Username" required>
+    <input name="password" type="password" class="form-control mb-2" placeholder="Password" required>
+    <button class="btn btn-success">Register</button>
+</form>
+{% endblock %}
