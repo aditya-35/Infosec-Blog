@@ -29,30 +29,6 @@ It is designed as a **minor project** but follows **industry-standard DevOps pra
 
 ---
 
-## 📁 Project Structure
-
-flask-crud-app/
-│
-├── app.py
-├── requirements.txt
-├── Dockerfile
-├── .dockerignore
-│
-├── templates/
-│ ├── base.html
-│ ├── index.html
-│ ├── update.html
-│ ├── login.html
-│ └── signup.html
-│
-├── static/
-│ └── style.css
-│
-└── .github/
-└── workflows/
-└── ci-cd.yml
-
-
 ---
 
 ## 🖥️ Prerequisites
@@ -70,16 +46,19 @@ docker --version
 git --version
 ```
 ⚙️ Installation & Setup (Local – Without Docker)
+
 1️⃣ Clone the Repository
 ```bash
 git clone https://github.com/<your-username>/flask-crud-app.git
 cd flask-crud-app
 ```
 2️⃣ Create Virtual Environment
-```python
+```bash
 python -m venv venv
 source venv/bin/activate   # macOS/Linux
 venv\Scripts\activate      # Windows
 ```
 3️⃣ Install Dependencies
+```bash
 pip install -r requirements.txt
+```
