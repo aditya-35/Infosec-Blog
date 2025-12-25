@@ -1,4 +1,4 @@
-name: Flask CI Pipeline
+name: TaskMaster CI/CD Pipeline
 
 on:
   push:
