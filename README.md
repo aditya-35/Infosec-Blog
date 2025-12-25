@@ -45,18 +45,15 @@ python --version
 docker --version
 git --version
 ```
-
 ---
 
-⚙️ Installation & Setup (Local – Without Docker)
+## ⚙️ Installation & Setup (Local – Without Docker)
 
 1️⃣ Clone the Repository
 ```bash
 git clone https://github.com/<your-username>/flask-crud-app.git
 cd flask-crud-app
 ```
-#
-
 2️⃣ Create Virtual Environment
 ```bash
 python -m venv venv
@@ -71,7 +68,8 @@ pip install -r requirements.txt
 ```bash
 python app.py
 ```
-🐳 Run Using Docker (Recommended)
+---
+## 🐳 Run Using Docker (Recommended)
 1️⃣ Build Docker Image
 ```bash
 docker build -t flask-crud-app .
