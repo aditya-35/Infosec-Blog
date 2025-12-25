@@ -51,8 +51,8 @@ git --version
 
 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/<your-username>/flask-crud-app.git
-cd flask-crud-app
+git clone https://github.com/aditya-35/TaskMaster.git
+cd TaskMaster
 ```
 2️⃣ Create Virtual Environment
 ```bash
