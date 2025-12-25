@@ -29,8 +29,6 @@ It is designed as a **minor project** but follows **industry-standard DevOps pra
 
 ---
 
----
-
 ## 🖥️ Prerequisites
 
 Make sure you have the following installed:
@@ -38,6 +36,8 @@ Make sure you have the following installed:
 - **Python 3.9+**
 - **Docker**
 - **Git**
+  
+---
 
 ### Verify installations:
 ```bash
@@ -61,4 +61,19 @@ venv\Scripts\activate      # Windows
 3️⃣ Install Dependencies
 ```bash
 pip install -r requirements.txt
+```
+4️⃣ Run the Application
+```bash
+python app.py
+```
+🐳 Run Using Docker (Recommended)
+1️⃣ Build Docker Image
+```bash
+docker build -t flask-crud-app .
+```
+2️⃣ Run Docker Container
+
+macOS users should avoid port 5000 (often already in use)
+```bash
+docker run -p 5001:5000 flask-crud-app
 ```
