@@ -51,7 +51,7 @@ git --version
 
 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/aditya-35/TaskMaster.git
+git clone https://github.com/AdityaxCSE/TaskMaster.git
 cd TaskMaster
 ```
 2️⃣ Create Virtual Environment
