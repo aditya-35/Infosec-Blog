@@ -76,7 +76,6 @@ docker build -t flask-crud-app .
 ```
 2️⃣ Run Docker Container
 
-macOS users should avoid port 5000 (often already in use)
 ```bash
-docker run -p 5001:5000 flask-crud-app
+docker run -p 8080:8080 flask-crud-app
 ```
